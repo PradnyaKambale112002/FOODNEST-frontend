@@ -4,7 +4,7 @@ import pizza from "../assets/foods/margherita-pizza.jpg";
 import burger from "../assets/foods/chicken-burger.jpg";
 import biryani from "../assets/foods/chicken-biryani.jpg";
 import coffee from "../assets/foods/hazelnut-cold-coffee.jpg";
-import brownie from "../assets/foods/Sizzling-brownie.jpg";
+import brownie from "../assets/foods/sizzling-brownie.jpg";
 import sandwich from "../assets/foods/veg-grilled-sandwich.jpg";
 
 const foods = [
