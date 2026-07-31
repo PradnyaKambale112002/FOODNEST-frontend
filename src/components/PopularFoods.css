@@ -12,7 +12,7 @@
 
 .food-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
 
@@ -105,22 +105,29 @@
     background: #e64a19;
 }
 
-@media (max-width:768px){
+/* Tablet */
+@media (max-width: 992px) {
+    .food-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
-    .popular-foods{
-        padding:50px 15px;
+/* Mobile */
+@media (max-width: 768px) {
+    .popular-foods {
+        padding: 50px 15px;
     }
 
-    .popular-foods h2{
-        font-size:1.8rem;
+    .popular-foods h2 {
+        font-size: 1.8rem;
     }
 
-    .food-grid{
-        grid-template-columns:1fr;
-        gap:20px;
+    .food-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
-    .image-box img{
-        height:200px;
+    .image-box img {
+        height: 200px;
     }
 }
